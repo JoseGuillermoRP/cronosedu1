@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+*{
+margin: 0;
+padding: 0;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+@media screen and (min-width: 1320px){
+body{
+    background-image: linear-gradient(to right, white , black);
+}
+.header{
+    margin:10px;
+display: flex;
+justify-content: space-between;
+}
+.header label {
+display: none;
+}
+ #menu-bar{
+    display: none;
+}
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    list-style: none;
+    margin-right: 700px;
+    font-size: 18px;
+    
+}
+.header li a {
+text-decoration: none;
+    color:black;
+
+}
+.header .Iniciarsesion {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.logocronos{
+  
+border-right: solid 5px white;
+padding-right: 32px;
+padding-bottom:  30px;
+margin-bottom: -20px;
+margin-top:-15px;
+margin-left: 10px;
+padding-top: 13px;
+
+}
+
+.cuerpo{
+display: flex;
+justify-content: space-between;
+}
+
+.Cursos{
+margin-left: 10px;
+margin-top: 2px;
+padding-right: 19px;
+border-right:solid 5px white;
+height: 565px;
+
+
+}
+.Cursos a{
+    text-decoration: none;
+    color: black;
+}
+.Cursos img{
+    width: 70px;
+}
+.curso1, .curso2, .curso3{
+margin-top: 100px;
+margin-left: 20px;
+}
+.curso1 img{
+    width: 55px;
+    margin-left: 5px;
+}
+.curso1 p{
+margin-left: 3px;
+}
+.curso2 p{
+margin-left: -21px;
+}
+.curso3 p{
+    margin-left: 7px;
+}
+.Titulo{
+margin-top:190px;
+margin-right: 120px;
+
+
+}
+.Titulo h1{
+    font-size: 70px;
+}
+.Titulo h3{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+.Titulo a{
+
+text-align: center;
+border: solid 3px white;
+border-radius: 20px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+font-size: 30px;
+font-weight: bold;
+padding-bottom: 5px;
+margin-left: 130px;
+
+text-decoration: none;
+color: white;
+
+}
+
+.Foto{
+margin-top:125px;
+margin-right: 150px;
+width: 300px;
+}
+.Foto img{
+width: 400px;
+
+}
+
+
+
+
+}
+@media screen and (max-width: 1319px){
+body{
+    background-image: linear-gradient(to right, white , black);
+}
+.header{
+    margin:10px;
+display: flex;
+justify-content: space-between;
+}
+.header label {
+display: none;
+}
+.header #menu-bar{
+    display: none;
+}
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 273px;
+    list-style: none;
+    margin-right: 473px;
+    font-size: 17px;
+    
+}
+.header li a {
+text-decoration: none;
+    color:black;  
+      
+
+}
+.header .Iniciarsesion {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.logocronos{
+border-right: solid 5px white;
+padding-right: 39px;
+padding-bottom:  30px;
+margin-bottom: -20px;
+margin-top:-15px;
+margin-left: 3px;
+padding-top: 13px;
+
+}
+
+.cuerpo{
+display: flex;
+justify-content: space-between;
+}
+
+.Cursos{
+margin-left: 10px;
+margin-top: 2px;
+padding-right: 19px;
+border-right:solid 5px white;
+height: 619px;
+
+
+}
+.Cursos a{
+    text-decoration: none;
+    color: black;
+}
+.Cursos img{
+    width: 70px;
+}
+.curso1, .curso2, .curso3{
+margin-top: 100px;
+margin-left: 20px;
+}
+.curso1 img{
+    width: 55px;
+    margin-left: 5px;
+}
+.curso1 p{
+margin-left: 3px;
+}
+.curso2 p{
+margin-left: -21px;
+}
+.curso3 p{
+    margin-left: 7px;
+}
+.Titulo{
+margin-top:191px;
+margin-right: -72px;
+
+
+}
+.Titulo h1{
+    font-size: 71px;
+}
+.Titulo h3{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+.Titulo a{
+
+text-align: center;
+border: solid 3px white;
+border-radius: 20px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+font-size: 30px;
+font-weight: bold;
+padding-bottom: 5px;
+margin-left: 130px;
+
+text-decoration: none;
+color: white;
+
+}
+
+.Foto{
+margin-top:244px;
+margin-right: 76px;
+width: 300px;
+}
+.Foto img{
+width: 364px;
+
+}
+
+
+}
+@media screen and (min-width: 1920px){
+.Foto{
+    margin-top:180px;
+    margin-right: 280px;
+}
+.header label {
+display: none;
+}
+.header #menu-bar{
+    display: none;
+}
+.Foto img{
+    width: 550px;
+}
+.Titulo{
+    margin-top: 341px;
+    margin-left:-98px;
+}
+.Titulo h1{
+    font-size: 100px;
+}
+.Titulo a{
+    margin-left: 214px;
+    padding: 7px 38px 8px 38px;
+}
+.Cursos{
+    height: 860px;
+    padding-right: 54px;
+    margin-left: 36px;
+}
+.header ul{
+    margin-top: 10px;
+    margin-right: 1000px;
+    
+    width: 420px;
+}
+.logocronos{
+    padding-top: 23px;
+    padding-right: 50px;
+    padding-left: 23px;
+    
+}
+.header a{
+font-size: 25px;
+}
+.curso1 img{
+    width: 64px;
+
+}
+
+.curso1 img{
+    margin-top: 50px;
+    width: 68px;
+    margin-left: 9px;
+}
+.curso1 p{
+    margin-left: 13px;
+     
+}
+.curso2 img{
+    margin-left: 3px;
+     width: 81px;
+   
+}.curso2 p{
+margin-left: -16px;
+margin-right: -5px;
+}
+.curso3 img{
+    margin-left: 3px;
+    width: 84px;
+}
+.curso3 p{
+   margin-left: 13px;
+}
+.header img{
+
+    width: 117px;
+    height: 37px;
+}
+.header .Iniciarsesion{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+}
+@media screen and (max-width:768px){
+.cuerpo{
+    display: block;
+}
+.header ul{
+    margin-right: 10px;
+}
+.logocronos {
+    border: none;
+}
+.header label {
+display: none;
+}
+#menu-bar{
+    display: none;
+}
+.Cursos{
+    border:none;
+    display: flex;
+    transform: translate(97px,608px);
+    padding-top: 3px;
+    display: flex;
+    justify-content:space-between;
+    width: 501px;
+    height: 3px;
+}
+.curso1 img{
+    width: 45px;
+    margin-left: 12px;
+}
+.Titulo{
+margin-top:140px;
+margin-left: 116px;
+width: 547px;
+}
+.Titulo h1{
+    font-size: 71px;
+}
+
+
+.Foto{
+    margin-top: 79px;
+    margin-left: 198px;
+}
+.Foto img{
+width: 331px;
+
+}
+}
+
+@media screen and (max-width:445px){
+#menu-bar{
+    display: none;
+
+}
+.header{
+    color: #ffff;
+    float: right;
+}
+.Iniciarsesion{
+    margin-right: 20px;
+}
+
+#menu{
+ display: none;   
+}
+.Cursos{
+    display: none;
+
+}
+
+
+.Titulo{
+    display: none;
+
+}
+.Foto{
+    display: none;
+}
+}
